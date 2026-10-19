@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Demo - Fundamentals</title>
+     <!-- Link to external CSS -->
+    <link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+    <!-- Header of the page -->
+    <h1>D3.js Fundamentals Demo</h1>
+    <div class="section">
+        <h2>Section 1: Selections & DOM Manipulation</h2>
+        <p>Read more about <a href="https://d3js.org/d3-selection">D3 Selections</a></p>
+        <div id="demo-1" class="demo-container">
+            This text will be changed by D3
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Section 2: Data Binding</h2>
+        <p>Read more about D3 <a href="https://d3js.org/d3-selection/joining">Data Joining</a></p>
+        <div id="demo-2" class="demo-container">
+            <!-- Circles and rectangles will appear here -->
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Section 3: Scales</h2>
+        <p>Read more about <a href="https://d3js.org/d3-scale">D3 Scales</a></p>
+        <div class="demo-container">
+            <p>Check the browser console (F12 or CMD+OPTION+I or CTRL+SHIFT+J) to see scale examples</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Section 4: Bar Chart</h2>
+        <div id="demo-4" class="demo-container">
+            <!-- Bar charts will appear here -->
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Section 5: Line Chart from CSV</h2>
+        <p>Read more about <a href="https://d3js.org/d3-shape/line">D3 lines</a></p>
+        <div id="demo-5" class="demo-container">
+            <!-- Line chart will appear here -->
+        </div>
+    </div>  
+    <!-- D3.js Library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+     <!-- Custom D3.js script to add visualizations -->
+    <script type="module" src="js/section1.js"></script>
+    <script type="module" src="js/section2.js"></script>
+    <script type="module" src="js/section3.js"></script>
+    <script type="module" src="js/section4.js"></script>
+    <script type="module" src="js/section5.js"></script>
+</body>
+</html>
